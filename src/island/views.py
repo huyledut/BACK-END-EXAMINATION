@@ -33,9 +33,7 @@ class IslandListView(GenericAPIView):
                 islands = None
         return Response(islands, status=status.HTTP_200_OK)
     
-    def post(self, reqest):
-        
-        return Response(reqest, status=status.HTTP_200_OK)
+    
 
 
 

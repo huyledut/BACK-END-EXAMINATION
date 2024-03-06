@@ -1,0 +1,27 @@
+# BACK-END EXAMINATION
+
+Project Overview
+The goal of this project is to develop a backend API that enables users to retrieve information about islands. The project consists of three phases, each with specific requirements and objectives.
+
+## Phase 1: Design Database Diagram & Phase 2: Implement Retrieve Island List API
+
+    Location: ./src
+    Setup:
+        python -m venv venv
+        venv/scripts/activate
+        pip install -r requirements
+        py manage.py runserver
+
+## Phase 3: Count the number of islands
+
+    Location: ./phase3.py
+    Setup:
+        py phase3.py
+
+## Phase 4: Build a Dockerfile to make a Docker image for this project
+
+    src: BACK-END EXAMINATION
+    Location: ./Dockerfile
+    Setup:
+        docker build -t island .
+        docker run -d -p 8000:8000 island
